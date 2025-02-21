@@ -90,7 +90,7 @@ body {
 
 /* Products Section Styles */
 .sectionLanches,
-.sectionPorcoes {
+.sectionPorcoes, .sectionBebidas {
   max-width: 120rem;
   margin: 0 auto;
   padding: 4rem 2rem;
@@ -118,16 +118,14 @@ body {
   border-radius: 0.5rem;
 }
 
-.products-container,
-.products-container1 {
+.products-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2.5rem;
   padding: 1rem;
 }
 
-.product,
-.product1 {
+.product{
   text-align: center;
   padding: 2rem;
   background: #ffffff;
@@ -138,27 +136,23 @@ body {
   overflow: hidden;
 }
 
-.product:hover,
-.product1:hover {
+.product:hover {
   transform: translateY(-5px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
 }
 
-.product img,
-.product1 img {
+.product img {
   width: 100%;
   height: auto;
   border-radius: 1rem;
   transition: transform 0.5s ease;
 }
 
-.product:hover img,
-.product1:hover img {
+.product:hover img {
   transform: scale(1.08);
 }
 
-.product h3,
-.product1 h3 {
+.product h3 {
   font-size: 2rem;
   color: #2d3748;
   margin: 1.5rem 0;
@@ -308,7 +302,8 @@ body {
   }
   
   .sectionLanches,
-  .sectionPorcoes {
+  .sectionPorcoes, 
+  .sectionBebidas {
     padding: 2rem 1.5rem;
   }
   
